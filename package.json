@@ -1,0 +1,37 @@
+{
+  "name": "multi-select-facet",
+  "version": "1.0.0",
+  "description": "Library to apply multiple filters on a collection of objects based on property values of those objects",
+  "main": "index.ts",
+  "scripts": {
+    "test": "karma start ./config/karma.conf.js",
+    "build": "tsc"
+  },
+  "keywords": [
+    "multiselect",
+    "facet",
+    "filter"
+  ],
+  "author": "Assen Garbev",
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^6.5.4"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.4.4",
+    "istanbul-instrumenter-loader": "^3.0.1",
+    "jasmine-core": "~3.4.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~4.1.0",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-coverage-istanbul-reporter": "^2.1.0",
+    "karma-jasmine": "~2.0.1",
+    "karma-jasmine-html-reporter": "^1.4.0",
+    "karma-trx-reporter": "^0.4.3",
+    "karma-webpack": "^4.0.2",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
