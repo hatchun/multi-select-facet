@@ -9,9 +9,7 @@
     "lint": "tslint -p tsconfig.json",
     "build": "tsc"
   },
-  "registry": {
-
-  },
+  "registry": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hatchun/multi-select-facet.git"
